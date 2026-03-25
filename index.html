@@ -1,0 +1,363 @@
+<!doctype html>
+
+<html class="dark" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Matthew Restine | Software Engineer</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'on-tertiary': '#003824',
+              'tertiary-fixed': '#6ffbbe',
+              'on-secondary': '#263143',
+              'secondary-fixed': '#d8e3fb',
+              'on-surface-variant': '#c6c6cd',
+              'tertiary-container': '#001c10',
+              'on-primary': '#00354a',
+              tertiary: '#4edea3',
+              'on-error': '#690005',
+              'secondary-fixed-dim': '#bcc7de',
+              'secondary-container': '#3e495d',
+              'tertiary-fixed-dim': '#4edea3',
+              'on-secondary-fixed-variant': '#3c475a',
+              'on-surface': '#dae2fd',
+              'surface-container-high': '#222a3d',
+              'error-container': '#93000a',
+              'surface-bright': '#31394d',
+              error: '#ffb4ab',
+              'on-tertiary-fixed': '#002113',
+              'surface-container-low': '#131b2e',
+              'on-primary-container': '#008abb',
+              'primary-fixed': '#c4e7ff',
+              outline: '#909097',
+              'on-error-container': '#ffdad6',
+              'on-secondary-container': '#aeb9d0',
+              'surface-container': '#171f33',
+              surface: '#0b1326',
+              'on-secondary-fixed': '#111c2d',
+              'outline-variant': '#45464d',
+              'on-tertiary-container': '#009365',
+              'on-background': '#dae2fd',
+              'primary-container': '#001a27',
+              secondary: '#bcc7de',
+              primary: '#7bd0ff',
+              'inverse-surface': '#dae2fd',
+              'on-primary-fixed': '#001e2c',
+              'surface-container-lowest': '#060e20',
+              'primary-fixed-dim': '#7bd0ff',
+              'on-tertiary-fixed-variant': '#005236',
+              'inverse-on-surface': '#283044',
+              background: '#0b1326',
+              'inverse-primary': '#00668a',
+              'surface-tint': '#7bd0ff',
+              'surface-dim': '#0b1326',
+              'surface-container-highest': '#2d3449',
+              'on-primary-fixed-variant': '#004c69',
+              'surface-variant': '#2d3449',
+            },
+            fontFamily: {
+              headline: ['Space Grotesk'],
+              body: ['Inter'],
+              label: ['Space Grotesk'],
+            },
+            borderRadius: {
+              DEFAULT: '0.125rem',
+              lg: '0.25rem',
+              xl: '0.5rem',
+              full: '0.75rem',
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #0b1326;
+        color: #dae2fd;
+      }
+      .font-headline {
+        font-family: 'Space Grotesk', sans-serif;
+      }
+      .material-symbols-outlined {
+        font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24;
+      }
+      .terminal-glow {
+        box-shadow: 0 0 20px rgba(123, 208, 255, 0.05);
+      }
+    </style>
+  </head>
+  <body class="bg-surface text-on-surface selection:bg-primary/30">
+    <main class="max-w-4xl mx-auto px-6 lg:px-8">
+      <!-- Hero Section -->
+      <section class="min-h-[70vh] flex flex-col justify-center py-20">
+        <div
+          class="mb-4 text-primary font-headline font-bold tracking-[0.2em] uppercase text-sm"
+        >
+          Senior Software Engineer
+        </div>
+        <h1
+          class="font-headline text-5xl md:text-7xl font-bold tracking-tight text-on-surface mb-8 leading-none"
+        >
+          Matthew.<span class="text-primary italic">Restine</span>
+        </h1>
+        <p
+          class="font-body text-xl text-on-surface-variant max-w-xl mb-12 leading-relaxed"
+        >
+          I'm a generalist with 14 years of experience spanning fintech, retail,
+          and defense working fullstack using AI tools to build maintainable,
+          testable, and performant applications for startups and big companies
+          alike
+        </p>
+        <div class="flex flex-wrap gap-8 items-center">
+          <a
+            class="flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors text-md font-label font-bold tracking-widest uppercase group"
+            href="https://www.linkedin.com/in/mrestine/"
+            target="_blank"
+          >
+            <span
+              class="material-symbols-outlined text-xl group-hover:scale-110 transition-transform"
+              >badge</span
+            >
+            LinkedIn
+          </a>
+          <a
+            class="flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors text-md font-label font-bold tracking-widest uppercase group"
+            href="https://github.com/mrestine"
+            target="_blank"
+          >
+            <span
+              class="material-symbols-outlined text-xl group-hover:scale-110 transition-transform"
+              >code</span
+            >
+            GitHub
+          </a>
+          <a
+            class="flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors text-md font-label font-bold tracking-widest uppercase group"
+            href="/me/MatthewRestineResume.pdf"
+            target="_blank"
+          >
+            <span
+              class="material-symbols-outlined text-xl group-hover:scale-110 transition-transform"
+              >description</span
+            >
+            Resume
+          </a>
+        </div>
+        <div class="flex flex-wrap gap-2 pt-20">
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >TypeScript</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >React</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >Node</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >Next.js</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >NestJS</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >NX</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >Redis</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >Postgres</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >MongoDB</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >Express</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >WebSockets</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >Java</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >Spring</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >Camunda</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >Copilot</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >Claude Code</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >AWS</span
+          >
+          <span
+            class="px-3 py-1 text-xs font-label font-bold uppercase tracking-widest text-primary bg-primary-container rounded-full"
+            >GCP</span
+          >
+        </div>
+      </section>
+      <!-- Projects List -->
+      <section class="pb-20" id="projects">
+        <h2
+          class="font-headline text-2xl font-bold mb-12 text-outline tracking-tight"
+        >
+          Personal Projects
+        </h2>
+        <div class="space-y-16">
+          <!-- Where'd I Go? -->
+          <div class="group">
+            <div class="flex flex-col md:flex-row md:items-baseline gap-2 mb-4">
+              <h3
+                class="font-headline text-2xl font-bold group-hover:text-primary transition-colors"
+              >
+                Where'd I Go?
+              </h3>
+              <div
+                class="h-px flex-grow bg-outline-variant/10 hidden md:block"
+              ></div>
+              <span class="font-label text-xs tracking-tighter text-tertiary"
+                >TypeScript • React • Go • Redis</span
+              >
+            </div>
+            <p class="text-on-surface-variant max-w-2xl leading-relaxed mb-6">
+              Lists all towns a bike route goes through using Overpass for
+              boundaries and Leaflet for mapping. Connects to Strava to pull
+              recent outdoor rides. Hosted on Vercel.
+            </p>
+            <div class="flex gap-4">
+              <a
+                class="text-xs font-bold uppercase tracking-widest text-primary border-b border-primary/20 hover:border-primary transition-all pb-1"
+                href="https://whered-i-go.vercel.app/"
+                target="_blank"
+                >Live</a
+              >
+              <a
+                class="text-xs font-bold uppercase tracking-widest text-on-surface-variant hover:text-white transition-colors"
+                href="https://github.com/mrestine/whered-i-go"
+                target="_blank"
+                >Repository</a
+              >
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="group">
+            <div class="flex flex-col md:flex-row md:items-baseline gap-2 mb-4">
+              <h3
+                class="font-headline text-2xl font-bold group-hover:text-primary transition-colors"
+              >
+                Fireflies
+              </h3>
+              <div
+                class="h-px flex-grow bg-outline-variant/10 hidden md:block"
+              ></div>
+              <span class="font-label text-xs tracking-tighter text-tertiary"
+                >TypeScript • Go • WebSockets</span
+              >
+            </div>
+            <p class="text-on-surface-variant max-w-2xl leading-relaxed mb-6">
+              An interactive swarm of fireflies that connects multiple users
+              with WebSockets. Hosted on GH Pages and Render.
+            </p>
+            <div class="flex gap-4">
+              <a
+                class="text-xs font-bold uppercase tracking-widest text-primary border-b border-primary/20 hover:border-primary transition-all pb-1"
+                href="https://mrestine.github.io/fireflies"
+                target="_blank"
+                >Live</a
+              >
+              <a
+                class="text-xs font-bold uppercase tracking-widest text-on-surface-variant hover:text-white transition-colors"
+                href="https://github.com/mrestine/fireflies"
+                target="_blank"
+                >Repository</a
+              >
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="group">
+            <div class="flex flex-col md:flex-row md:items-baseline gap-2 mb-4">
+              <h3
+                class="font-headline text-2xl font-bold group-hover:text-primary transition-colors"
+              >
+                Monosynth
+              </h3>
+              <div
+                class="h-px flex-grow bg-outline-variant/10 hidden md:block"
+              ></div>
+              <span class="font-label text-xs tracking-tighter text-tertiary"
+                >Javascript • React • WebAudio</span
+              >
+            </div>
+            <p class="text-on-surface-variant max-w-2xl leading-relaxed mb-6">
+              A full-featured monophonic synthesizer built to work in the
+              browser using the WebAudio API. Use your keyboard as a keyboard.
+              Hosted on GH Pages.
+            </p>
+            <div class="flex gap-4">
+              <a
+                class="text-xs font-bold uppercase tracking-widest text-primary border-b border-primary/20 hover:border-primary transition-all pb-1"
+                href="https://mrestine.github.io/monosynth"
+                target="_blank"
+                >Live</a
+              >
+              <a
+                class="text-xs font-bold uppercase tracking-widest text-on-surface-variant hover:text-white transition-colors"
+                href="https://github.com/mrestine/monosynth"
+                target="_blank"
+                >Repository</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Minimal Footer -->
+    <footer class="py-12 px-6 lg:px-8 border-t border-outline-variant/5">
+      <div
+        class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-label uppercase tracking-widest text-slate-500"
+      >
+        <div>© 2026 Matthew Restine</div>
+      </div>
+    </footer>
+  </body>
+</html>
